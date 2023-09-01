@@ -1,145 +1,171 @@
-const logotext = "JOHN";
+const logotext = "KUNAL'S PORTFOLIO";
 const meta = {
     title: "John Doe",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Kunal Kumawat",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
+        first: "I’m a Full Stack Developer",
+        second: "I'm strong Backend Developer",
         third: "I develop mobile apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "As a crazy and creative minded developer, I am never satisfied, continously growing, updating with new techs and pushing the boundaries to implement the concepts responsibly",
+    your_img_url: "https://i.ibb.co/LPsDkZ7/IMG-0135.jpg",
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: " Passionate full-stack developer with an unyielding drive to craft seamless digital experiences from front to back. Embracing challenges as opportunities, I thrive on pushing boundaries, learning new technologies, and transforming innovative ideas into functional realities. My dedication to mastering both the art of user-centric design and the intricacies of robust backend systems empowers me to deliver solutions that inspire and elevate.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+const worktimeline = [
+    {
+        jobtitle: "Email",
+        where: "kumawatkunal854@gmail.com",
+        // date: "2020",
+    },
+
+    {
+        jobtitle: "Phone",
+        where: "+919057592675",
+        // date: "2019",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Address",
+        where: "Golf Course road, New Delhi",
+        // date: "2019",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
+const skills = [
+    {
+        name: "NodeJS and ExpressJS (BACKEND)",
+        value: 100,
     },
     {
-        name: "Djano",
+        name: "Python Flask (BACKEND)",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "MongoDB and typeOrm (Databases) ",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "React and Angular (FRONTEND)",
+        value: 90,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Azure,Aws,GCP and Git (Cloud technologies)",
+        value: 75,
+    },
+    {
+        name: "integrations and Deployments (Operations/ops)",
+        value: 70,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const services = [
+    {
+        title: "Master's of Computer Applications",
+        description: "JECRC University, post graduated in 2022",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Bechlor's of Computer Applications",
+        description: "Poornima University, graduated in 2020",
+    },
+];
+const extradetails = [
+    {
+        title: "Happy Clients",
+        description: "8",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "projects",
+        description: "11",
+    },
+    {
+        title: "Hours of support",
+        description: "1463",
+    },
+    {
+        title: "Experience",
+        description: "4+",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://img.freepik.com/free-vector/hand-drawn-flat-people-hobbies_52683-70930.jpg?w=2000",
+        description: "E-learning application",
+        name:"CoursePool",
+        tech:"React, Nodejs, Express, Mongo DB",
+        type:"Freelanced private",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://img.freepik.com/premium-psd/vimeo-video-sh…endering-isometric-isolated_384205-243.jpg?w=2000",
+        description: "YouTube Clone",
+        name:"LetSee",
+        tech:"Angular, Nodejs, Express, Mongo DB",
+        type:"Freelanced private",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://www.pngitem.com/pimgs/m/226-2261312_employ…employee-icon-employee-management-system-logo.png",
+        description: "service to an organisation",
+        name:"Employee Management System",
+        tech:"Angular, Nodejs, Express, Mongo DB",
+        type:"Freelanced private",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://cdn.logojoy.com/wp-content/uploads/2018/07/30110001/law8.png",
+        description: "law firm website",
+        name:"Jurist way",
+        tech:"Angular, Nodejs, Express, Mongo DB",
+        type:"professional project",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://t3.ftcdn.net/jpg/05/01/61/66/360_F_501616642_cBaVOyTrPMyUlIx7XZ6YU3ZobMlDIT6J.jpg",
+        description: "a loan reading application,calculate emi,bills and credit score" ,
+        name:"LoanReader",
+        tech:"Angular, Flask, Mongo DB",
+        type:"professional project",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://cdn1.vectorstock.com/i/1000x1000/71/75/community-logo-design-template-vector-20717175.jpg",
+        description: "An application for christan communities",
+        name:"Community",
+        tech:" Angular, Nodejs, Express, Mongo DB, Ionic",
+        type:"professional project",
     },
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://vectorseek.com/wp-content/uploads/2021/01/Whirlpool-Logo-Vector-scaled.jpg",
+        description: "associate project of outsourced organisation",
+        name:"Whirlpool kortura",
+        tech:"Angular, Nodejs, Express, Mongo DB",
+        type:"professional project",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://play-lh.googleusercontent.com/S4c_4nIimvf4l8ZlrUFdRjdlLph4YDaxFQcj3nLB6jtBA7v1cWdAZQWEnnhENdEAdGHz=w480-h960-rw",
+        description: "E-commerce application",
+        name:"RightOZ",
+        tech:"React, Nodejs, Express, Mongo DB",
+        type:"professional project",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://www.unikaksha.com/wp-content/uploads/2022/11/LOGO-01.svg",
+        description: "A codeshastra product",
+        name:"Unikaksha",
+        tech:"Nodejs ,Express , Mongo DB , Postgress",
+        type:"professional project",
     },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+   
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
+    YOUR_EMAIL: "kunalkumawat7860@gmail.com",
+    YOUR_FONE: "+919057592675",
+    description: "legacy,Prestige,Discipline i worked based on three principal",
+     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
@@ -151,6 +177,7 @@ const socialprofils = {
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
+    instagram: "https://instagram.com"
 };
 export {
     meta,
@@ -163,4 +190,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    extradetails
 };

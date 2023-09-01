@@ -8,6 +8,7 @@ import {
   worktimeline,
   skills,
   services,
+  extradetails,
 } from "../../content_option";
 
 export const About = () => {
@@ -37,7 +38,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Contact Details</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -69,8 +70,7 @@ export const About = () => {
                       className="progress-bar"
                       style={{
                         width: `${data.value}%`,
-                      }}
-                    >
+                      }}>
                       <div className="progress-value">{data.value}%</div>
                     </div>
                   </div>
@@ -81,7 +81,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">Education</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
@@ -92,6 +92,44 @@ export const About = () => {
                 </div>
               );
             })}
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">You may consider</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {extradetails.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.title}</th>
+                      <td>{data.description}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">check my complete CV </h3>
+          </Col>
+          <Col lg="7">
+            <div id="button_h" className="ac_btn btn">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://kunal-kumawat-cv.tiiny.site/">
+                Check CV
+              </a>
+              <div className="ring one"></div>
+              <div className="ring two"></div>
+              <div className="ring three"></div>
+            </div>
           </Col>
         </Row>
       </Container>
